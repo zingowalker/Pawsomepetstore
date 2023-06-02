@@ -1,3 +1,41 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+input,
+textarea {
+  @apply border-2 border-blue-500 rounded-md px-1 m-1 w-full;
+}
+
+input:focus,
+textarea:focus {
+  @apply border-none;
+}
+
+label {
+  @apply px-1 font-semibold text-base;
+}
+
+h1 {
+  @apply text-lg text-black px-1 font-bold text-center;
+}
+
+.btn-primary {
+  @apply bg-[#1877F2] hover:bg-[#265a9e] text-white px-4 py-2 rounded-md font-semibold;
+}
+
+table.tableForm {
+  @apply w-full;
+}
+
+table.tableForm thead tr td {
+  @apply bg-blue-200;
+}
+
+table.tableForm tr td {
+  @apply border border-blue-100 p-1;
+}
+
+table.tableForm a {
+  @apply bg-green-600 text-white text-sm px-2 py-1 rounded-md inline-flex gap-1 items-center;
+}
