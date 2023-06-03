@@ -17,7 +17,7 @@ label {
 }
 
 h1 {
-  @apply text-lg text-black px-1 font-bold text-center;
+  @apply text-lg text-black px-1 font-bold text-center mt-2;
 }
 
 .btn-primary {

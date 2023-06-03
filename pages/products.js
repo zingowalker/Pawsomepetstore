@@ -27,7 +27,7 @@ export default function Products() {
           </thead>
           <tbody>
             {products.map((product) => (
-              <tr>
+              <tr key={product.id}>
                 <td>{product.title}</td>
                 <td>
                   <Link href={"/products/edit/" + product._id}>
@@ -37,7 +37,7 @@ export default function Products() {
                       viewBox="0 0 24 24"
                       strokeWidth="1.5"
                       stroke="currentColor"
-                      class="w-4 h-4"
+                      className="w-4 h-4"
                     >
                       <path
                         strokeLinecap="round"
