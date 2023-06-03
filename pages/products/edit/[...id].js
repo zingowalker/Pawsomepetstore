@@ -5,7 +5,7 @@ import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
 import axios from "axios";
 
-export default function EditProductPate() {
+export default function EditProductPage() {
   const [productInfo, setProductInfo] = useState(null);
 
   const router = useRouter();
